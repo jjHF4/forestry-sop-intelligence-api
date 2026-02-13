@@ -55,7 +55,7 @@ export function VoiceAssistant() {
       await navigator.mediaDevices.getUserMedia({ audio: true });
 
       await conversation.startSession({
-        agentId: 'agent_7201khb436pyefbs29m7pjyd6xbj', 
+        agentId: 'your_elevenlabs_agent_id', 
         connectionType: 'webrtc'
       });
 
